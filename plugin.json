@@ -22,20 +22,12 @@
       "method": "hooks.statics.load"
     },
     {
-      "hook": "filter:user.account.edit",
+      "hook": "filter:user.account.edit.build",
       "method": "hooks.filters.userAccountEdit"
     }
   ],
-  "less": [
-    "style/acp.less",
-    "style/edit.less",
-    "style/profile.less"
-  ],
-  "acpScripts": [
-    "public/js/acp.js"
-  ],
-  "scripts": [
-    "client/edit/index.js"
-  ],
+  "less": ["style/acp.less", "style/edit.less", "style/profile.less"],
+  "acpScripts": ["public/js/acp.js"],
+  "scripts": ["client/edit/index.js"],
   "templates": "./public/templates"
 }
