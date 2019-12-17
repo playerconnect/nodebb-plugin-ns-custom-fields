@@ -10,11 +10,11 @@
       "method": "hooks.filters.menu"
     },
     {
-      "hook": "filter:account/profile.build",
+      "hook": "filter:user.account",
       "method": "hooks.filters.account"
     },
     {
-      "hook": "filter:topic.build",
+      "hook": "filter:controllers.topic.get",
       "method": "hooks.filters.topic"
     },
     {
